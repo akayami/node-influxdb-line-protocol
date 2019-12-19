@@ -1,0 +1,22 @@
+{
+  "name": "@akayami/influxdb-line-protocol",
+  "version": "1.0.0",
+  "description": "Manipulate InfluxDB line protocol messages",
+  "main": "index.js",
+  "repository": "git@github.com:akayami/node-influxdb-line-protocol.git",
+  "author": "Tomasz Rakowski <akayami@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "eslint": "^6.7.2",
+    "mocha": "^6.2.2",
+    "nyc": "^15.0.0-beta.3"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha",
+    "lint": "./node_modules/.bin/eslint  --fix .",
+    "test-cov": "node_modules/.bin/nyc _mocha ./test/*.js",
+    "coveralls": "nyc yarn test && nyc report --reporter=text-lcov | node_modules/.bin/coveralls"
+  }
+}
