@@ -1,6 +1,6 @@
 {
   "name": "@akayami/influxdb-line-protocol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manipulate InfluxDB line protocol messages",
   "main": "index.js",
   "repository": "git@github.com:akayami/node-influxdb-line-protocol.git",
